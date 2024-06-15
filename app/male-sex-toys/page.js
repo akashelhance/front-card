@@ -1,10 +1,11 @@
-import MaleSexToysComponets from "@/components/MaleSextoysComponents";
+import MaleSexToysComponets from "@/components/MaleSexToysComponents";
 import PageHeading from "@/components/PageHeading";
 
 export default function MaleToysPage(){
     return <>
-    <PageHeading heading="Couple Sex Toys" desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit."/>
-
-    <MaleSexToysComponets/>
+    <div className="bg-rose-100 pt-12">
+    <PageHeading heading="Male Sex Toys" desc="Male ipsum dolor sit amet, consectetur adipiscing elit."/>
+<MaleSexToysComponets/>
+</div>
     </>
 }

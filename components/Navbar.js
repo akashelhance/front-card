@@ -45,7 +45,7 @@ const Navbar = () => {
         <div className={`lg:flex flex-grow justify-center items-center ${isOpen ? 'block' : 'hidden'}`}>
           <ul className="flex flex-col lg:flex-row lg:ml-auto lg:space-x-8 lg:items-center">
             <NavItem href="/" selected={selected} onItemClick={handleItemClick}>Home</NavItem>
-            <NavItem href="/fleshlights" selected={selected} onItemClick={handleItemClick}>FleshlCoupleToysPageights</NavItem>
+            <NavItem href="/fleshlights" selected={selected} onItemClick={handleItemClick}>Fleshlights</NavItem>
 
             <NavItem href="/male-sex-toys" selected={selected} onItemClick={handleItemClick}>Male Sex Toys</NavItem>
             <NavItem href="/female-sex-toys" selected={selected} onItemClick={handleItemClick}>Female Sex Toys</NavItem>
