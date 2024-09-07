@@ -20,9 +20,10 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-gradient-to-r from-red-500 via-pink-500 via-orange-500 to-yellow-500 text-white shadow-lg rounded-b-lg fixed w-full top-0 left-0 z-50 p-4">
+    <nav className="bg-gradient-to-r from-blue-900 via-blue-900 to-blue-900 text-white shadow-lg rounded-b-lg fixed w-full top-0 left-0 z-50 p-4">
+
       <div className="flex justify-between items-center">
-        <div className="text-2xl font-bold">Your Logo</div>
+        <div className="text-2xl font-bold">cardrecommend</div>
         <button
           className="block lg:hidden focus:outline-none"
           onClick={toggleMenu}
@@ -45,15 +46,10 @@ const Navbar = () => {
         <div className={`lg:flex flex-grow justify-center items-center ${isOpen ? 'block' : 'hidden'}`}>
           <ul className="flex flex-col lg:flex-row lg:ml-auto lg:space-x-8 lg:items-center">
             <NavItem href="/" selected={selected} onItemClick={handleItemClick}>Home</NavItem>
-            <NavItem href="/fleshlights" selected={selected} onItemClick={handleItemClick}>Fleshlights</NavItem>
+            <NavItem href="/blog" selected={selected} onItemClick={handleItemClick}>Blog</NavItem>
 
-            <NavItem href="/male-sex-toys" selected={selected} onItemClick={handleItemClick}>Male Sex Toys</NavItem>
-            <NavItem href="/female-sex-toys" selected={selected} onItemClick={handleItemClick}>Female Sex Toys</NavItem>
-            <NavItem href="/couple-sex-toys" selected={selected} onItemClick={handleItemClick}>Couple Sex Toys</NavItem>
-
-            <NavItem href="/pornstar" selected={selected} onItemClick={handleItemClick}>Porn Stars</NavItem>
-            <NavItem href="/biography" selected={selected} onItemClick={handleItemClick}>Biography</NavItem>
-
+            <NavItem href="/credit-card-issuers" selected={selected} onItemClick={handleItemClick}>Credit Card Issuers</NavItem>
+            <NavItem href="/credit-card-categories" selected={selected} onItemClick={handleItemClick}>Credit Card Categories</NavItem>
           </ul>
         </div>
       </div>

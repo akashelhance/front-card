@@ -6,8 +6,8 @@ const Footer = () => {
 
   return (
     <footer>
-    <div className="py-4 bg-gradient-to-r from-pink-400 to-orange-400 text-white shadow-lg rounded-b-lg pt-9">
-      <div className="container px-4 mx-auto">
+<div className="py-4 bg-blue-900 text-white shadow-lg rounded-b-lg pt-9">
+<div className="container px-4 mx-auto">
         <div className="-mx-4 flex flex-wrap justify-between">
           <div className="px-4 my-4 w-full xl:w-1/5">
             <a href="/" className="block w-56 mb-10">
